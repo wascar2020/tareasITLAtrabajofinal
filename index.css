@@ -7,4 +7,12 @@
 body{
      background-color: blue;
      color: white;
+     vertical-align: middle;
+     display: flex;
+     flex-direction: column;
+}
+
+body main p{
+    text-align: center;
+    
 }
