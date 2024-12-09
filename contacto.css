@@ -7,10 +7,9 @@
 .grid-container{
         display: grid;
         grid-template-rows: 100px 700px 50px;
-        grid-template-columns: 100%;
-         
+        grid-template-columns: 100%;  
         color: red;
-        height: 900px;        
+        height: 1500px;        
 }
 
 .grid-container > .grid-items{    
@@ -47,8 +46,8 @@
                 justify-content: center;
                 list-style: none;    
                 width: 120px;  
-                height: 90px;
-                margin-left: -20px;       
+                height: 90px;  
+                margin-left: -20px;     
 }
 
 .navegacion li a{
@@ -56,7 +55,9 @@
                     color: white;                     
                     margin: 300px;
                     padding: 30px;
-                    background-color: blue;                     
+                    background-color: blue;
+
+                     
 }
 
 .navegacion li a:hover{
@@ -65,12 +66,13 @@
 }
 
 .grid-item-main{
-                 background-color: white;
+                  
+                 margin-left: 50px;
 }
 
 .grid-item-footer{
-                    position: absolute;
-                    bottom: 0px;                    
+                    position: fixed;
+                    bottom: 10px;                    
                     width: 100%;
                     background-color: rgb(20, 98, 124);
                     text-align: center;             
@@ -82,28 +84,39 @@
     text-decoration: none;
                     
 }
-
-main h1{color:red;font-size: 100px;display:flex;justify-content: center; }
-main h2{color:red;font-size: 50px;display:flex;justify-content: center;}
-.sectionimages{display: flex;justify-content: center;}
  
 
 
 
+  
 
+.espaciolabels{width: 50px;}
 
- 
- 
- 
+main ul{margin-top: 30px;}
+            
+main ul li{list-style: none;}  
 
+fieldset{
+    width: 550px;                
+    border:4px solid green;
+}
 
+.submit:hover{
+                width: 100px;
+                height: 50px;                 
+                color: white;
+                border: 3px solid yellow;
+                animation-name: cambiacolorsubmit;               
+                animation-duration: 10s;  
+}
 
+.input{margin-left: 50px;}
 
+.input:focus{background-color: yellow;}
 
-
-
-
-
-
+@keyframes cambiacolorsubmit{
+                        from{background-color: green;} 
+                        to {background-color: blue;}
+}
 
 

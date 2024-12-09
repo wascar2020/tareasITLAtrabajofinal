@@ -8,7 +8,7 @@
         display: grid;
         grid-template-rows: 100px 700px 50px;
         grid-template-columns: 100%;
-         
+        background-color: blue;
         color: red;
         height: 900px;        
 }
@@ -65,7 +65,9 @@
 }
 
 .grid-item-main{
-                 background-color: white;
+          
+                 display: grid;
+                 grid-template-columns: 50% 50%;
 }
 
 .grid-item-footer{
@@ -78,32 +80,17 @@
 }
 
 .grid-item-footer a{
-    color: white;
-    text-decoration: none;
-                    
+                    color: white;
+                    text-decoration: none;                    
 }
 
-main h1{color:red;font-size: 100px;display:flex;justify-content: center; }
-main h2{color:red;font-size: 50px;display:flex;justify-content: center;}
-.sectionimages{display: flex;justify-content: center;}
+main h1{
+        margin:20px;display:flex; 
+        justify-content:  center;
+        color: red;
+}
+
+main p{
+        margin-top:20px;
+}
  
-
-
-
-
-
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
